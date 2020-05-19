@@ -1,0 +1,41 @@
+/* LANDING PAGE */
+
+.Landing {
+    &-header {
+        font-size: 4.5rem;
+        opacity: 65%;
+    }
+    &-subheader {
+        font-size: 4.0rem;
+        opacity: 65%;
+    }
+    &-header-container {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 8%;
+        width: 65%
+    }
+    &-button {
+        opacity: 50%;
+        width: 8rem;
+        font-size: 4.0rem;
+        transition: opacity 0.3s;
+    }
+    &-button:hover {
+        opacity: 1;
+        transition: opacity 0.3s;
+    }
+    &-image{
+        filter: drop-shadow(0 0 1.0rem rgb(44, 41, 41));
+    }
+}
+
+.fade-appear {
+    opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 2000ms linear;
+}
+
