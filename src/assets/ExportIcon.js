@@ -8,5 +8,5 @@ import PythonIcon from './icons/python.png';
 import ReactIcon from './icons/react.png';
 import VBAIcon from './icons/visualbasic.png'
 
-export { FirebaseIcon, GitIcon, CloudIcon, MySQLIcon, NodeIcon. 
+export { FirebaseIcon, GitIcon, CloudIcon, MySQLIcon, NodeIcon, 
         PostgreSQLIcon, PythonIcon, ReactIcon, VBAIcon };
