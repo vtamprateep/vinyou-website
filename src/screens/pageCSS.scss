@@ -40,3 +40,52 @@
 }
 
 /*  ABOUT PAGE  */
+
+.About {
+    &-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 10vw;
+        min-width: 130px;
+    }
+
+    &-image {
+        margin: auto;
+        height: 50%;
+    }
+
+    &-card-title {
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+    }
+
+    &-section {
+        min-width: 300px;
+        text-align: center;
+    }
+
+    &-section-title {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 1.0vh;
+        color: rgb(20, 20, 73);
+    }
+
+    &-section-list {
+        list-style: none;
+        
+        li {
+            color: rgb(114, 114, 114);
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding-top: 1vh;
+            padding-bottom: 0.5vh;
+        }
+    }
+}
