@@ -10,8 +10,8 @@ function App() {
     <div>
       {/* <LandingScreen /> */}
       {/* <AboutScreen /> */}
-      {/* <ResumeScreen /> */}
-      <ProjectScreen />
+      <ResumeScreen />
+      {/* <ProjectScreen /> */}
     </div>
   );
 }

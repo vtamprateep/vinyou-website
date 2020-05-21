@@ -52,7 +52,7 @@ const LandingScreen = () => {
                 timeout={2000}
                 classNames="fade"
             >
-                <Grid container direction="row" justify="space-evenly" aligntItems="center" >
+                <Grid container direction="row" justify="space-evenly" alignItems="center" >
                         <Grid item>
                             <Button variant="contained" className="Landing-button"><b>About</b></Button>
                         </Grid>
