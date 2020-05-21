@@ -89,3 +89,20 @@
         }
     }
 }
+
+/*  PROJECTS PAGE  */
+.Project {
+    &-div {
+        height: 70vh;
+        width: 40vw;
+        overflow: hidden;
+        background-color: grey;
+        border-radius: 1rem;
+    }
+
+    &-image {
+        height: 70%;
+        margin-top: 20%;
+        transform: translate(20%, 10% ) ;
+    }
+}
