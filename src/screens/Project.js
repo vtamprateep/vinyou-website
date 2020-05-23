@@ -15,7 +15,7 @@ const ProjectScreen = () => {
     }
 
     return (
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", height: "100vh", width: "100vw" }}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", marginTop: "5vh", marginBottom: "5vh", textAlign: "center" }}>
             <Grid container justify="space-evenly">
                 <Grid item style={{ textAlign: "center" }}>
                     <div className="Project-mal" >

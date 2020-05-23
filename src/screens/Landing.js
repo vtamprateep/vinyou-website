@@ -15,7 +15,7 @@ const LandingScreen = () => {
     }
 
     return (
-        <div style={{ height: "100vh",
+        <div style={{ height: "80vh",
             backgroundImage: `url(${CentralPark})`,
             backgroundPosition: "center", backgroundRepeat: "no-repeat",
             backgroundSize: "cover" }}
@@ -46,27 +46,7 @@ const LandingScreen = () => {
                         </CSSTransition>
                     </Grid>        
             </Grid>
-            <CSSTransition
-                in={true}
-                appear={true}
-                timeout={2000}
-                classNames="fade"
-            >
-                <Grid container direction="row" justify="space-evenly" alignItems="center" >
-                        <Grid item>
-                            <Button variant="contained" className="Landing-button"><b>About</b></Button>
-                        </Grid>
-                        <Grid item>
-                            <Button variant="contained" className="Landing-button"><b>Resume</b></Button>
-                        </Grid>
-                        <Grid item>
-                            <Button variant="contained" className="Landing-button"><b>Projects</b></Button>
-                        </Grid>
-                        <Grid item>
-                            <Button variant="contained" className="Landing-button"><b>Contact</b></Button>
-                        </Grid>
-                </Grid>
-            </CSSTransition>
+            
         </div>
     )
 }

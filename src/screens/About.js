@@ -15,8 +15,8 @@ const AboutScreen = () => {
                     [FirebaseIcon, "Firebase"], [GitIcon, "Git"], [CloudIcon, "Google Cloud"], [MySQLIcon, "MySQL"], [VBAIcon, "Visual Basic"]]
 
     return (
-        <div style={{display: "flex", flexDirection: "column", height: "100vh", justifyContent: "center" }}>
-            <div >
+        <div style={{display: "flex", flexDirection: "column", justifyContent: "center", marginTop: "5vh", marginBottom: "5vh" }}>
+            <div>
                 <Grid container justify="space-evenly" >
                     <Grid item className="About-section">
                         <Functions style={{ fontSize: "8vh", color: "grey"}} />
