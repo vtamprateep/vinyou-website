@@ -1,5 +1,4 @@
 import React from 'react';
-import { CSSTransition } from 'react-transition-group';
 import { MalImage, StockImage } from '../assets/ExportProjects';
 import { Grid, Box, Button } from '@material-ui/core';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -10,7 +9,7 @@ const ProjectScreen = () => {
     const buttonClick = (url) => {
         window.open(
             url,
-            '_blank' // <- This is what makes it open in a new window.
+            '_blank'
           );
     }
 
@@ -24,7 +23,7 @@ const ProjectScreen = () => {
                         <img src={MalImage} className="Project-mal-image"/>
                     </div>
                     <Button variant="outlined" style={{ margin: "2%" }} onClick={ e => buttonClick("https://mal-app-98b37.firebaseapp.com/")}>Access Website</Button>
-                    <Button variant="outlined" style={{ margin: "2%" }} disabled >View Github</Button>
+                    <Button variant="outlined" style={{ margin: "2%" }} onClick={ e => buttonClick("https://github.com/jamesang17/mal-app")}>View Github</Button>
                 </Grid>
                 <Grid item style={{ textAlign: "center" }}>
                     <div className="Project-stock">
