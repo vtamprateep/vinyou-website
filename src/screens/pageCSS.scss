@@ -1,0 +1,362 @@
+@media (max-width: 640px) {
+
+    .Landing {
+        &-container {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            min-height: calc(50px + 30vw);
+        }
+
+        &-header {
+            font-size: calc(12px + 5vw);
+            opacity: 0.65;
+        }
+        &-subheader {
+            font-size: calc(10px + 2vw);
+            opacity: 0.65;
+        }
+        &-header-container {
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-left: 8%;
+            width: 65%
+        }
+    
+        &-image{
+            filter: drop-shadow(0 0 1.0rem rgb(44, 41, 41));
+            min-height: 100px;
+            height: 20vw;
+        }
+    }
+    
+    .fade-appear {
+        opacity: 0;
+    }
+    
+    .fade-appear.fade-appear-active {
+        opacity: 1;
+        transition: opacity 2000ms linear;
+    }
+    
+    /*  ABOUT PAGE  */
+    
+    .About {
+        &-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            width: 10vw;
+            min-width: 130px;
+        }
+    
+        &-image {
+            margin: auto;
+            height: 50%;
+        }
+    
+        &-card-title {
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            font-style: italic;
+            text-align: center;
+        }
+    
+        &-section {
+            min-width: 300px;
+            text-align: center;
+        }
+    
+        &-section-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 1.0vh;
+            color: rgb(20, 20, 73);
+        }
+    
+        &-section-list {
+            list-style: none;
+            margin-bottom: 5vh;
+            
+            li {
+                color: rgb(114, 114, 114);
+                font-weight: 600;
+                font-size: 1.1rem;
+                padding-top: 1vh;
+                padding-bottom: 0.5vh;
+            }
+        }
+    }
+    
+    /*  PROJECTS PAGE  */
+    .Project {
+    
+        &-mal {
+            display: block;
+            text-align: left;
+            height: 60vh;
+            width: 90vw;
+            max-width: 450px;
+            overflow: hidden;
+            background-color: grey;
+            border-radius: 1rem;
+            margin-bottom: 5%;
+            filter: drop-shadow(3px 3px 5px rgb(44, 41, 41));
+    
+            &-image {
+                height: 70%;
+                margin-top: 20%;
+                transform: translate(15%, -10% ) ;
+            }
+    
+            &-title {
+                color: white;
+                font-size: 2em;
+                font-weight: 500;
+                margin-top: 4%;
+                margin-left: 4%
+            }
+    
+            &-desc {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+    
+        &-stock {
+            display: block;
+            text-align: left;
+            background-color: rgb(53, 53, 53);
+            border-radius: 1rem;
+            height: 60vh;
+            width: 90vw;
+            max-width: 450px;
+            margin-bottom: 5%;
+            filter: drop-shadow(3px 3px 5px rgb(44, 41, 41));
+    
+            &-image {
+                height: 90%;
+                margin-top: 5%;
+                filter: drop-shadow(0px 0px 2px rgb(199, 199, 199));
+                border-radius: 0.5rem;
+            }
+    
+            &-image-container {
+                width: 100%;
+                height: 70%;
+                text-align: center;
+            }
+    
+            &-title {
+                color: white;
+                margin-left: 4%;
+                margin-top: 2%;
+                font-size: 2em;
+                font-weight: 500;
+            }
+    
+            &-desc {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+    }
+
+}
+
+/* LANDING PAGE */
+
+@media (min-width: 641px) {
+
+    .Landing {
+        &-container {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 45vw;
+            min-height: calc(50px + 30vw);
+        }
+        
+        &-header {
+            font-size: calc(12px + 5vw);
+            opacity: 0.65;
+        }
+        &-subheader {
+            font-size: calc(10px + 4vw);
+            opacity: 0.65;
+        }
+        &-header-container {
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-left: 8%;
+            width: 65%
+        }
+        &-button {
+            opacity: 50%;
+            width: 8rem;
+            font-size: 4.0rem;
+            transition: opacity 0.3s;
+        }
+    
+        &-image{
+            filter: drop-shadow(0 0 1.0rem rgb(44, 41, 41));
+            min-height: 100px;
+            height: 20vw;
+        }
+    }
+    
+    .fade-appear {
+        opacity: 0;
+    }
+    
+    .fade-appear.fade-appear-active {
+        opacity: 1;
+        transition: opacity 2000ms linear;
+    }
+    
+    /*  ABOUT PAGE  */
+    
+    .About {
+        &-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            width: 10vw;
+            min-width: 130px;
+        }
+    
+        &-image {
+            margin: auto;
+            height: 50%;
+        }
+    
+        &-card-title {
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            font-style: italic;
+            text-align: center;
+        }
+    
+        &-section {
+            min-width: 300px;
+            text-align: center;
+        }
+    
+        &-section-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 1.0vh;
+            color: rgb(20, 20, 73);
+        }
+    
+        &-section-list {
+            list-style: none;
+            
+            li {
+                color: rgb(114, 114, 114);
+                font-weight: 600;
+                font-size: 1.1rem;
+                padding-top: 1vh;
+                padding-bottom: 0.5vh;
+            }
+        }
+    }
+    
+    /*  PROJECTS PAGE  */
+    .Project {
+    
+        &-mal {
+            display: block;
+            text-align: left;
+            height: 60vh;
+            width: 35vw;
+            max-width: 450px;
+            overflow: hidden;
+            background-color: grey;
+            border-radius: 1rem;
+            margin-bottom: 5%;
+            filter: drop-shadow(3px 3px 5px rgb(44, 41, 41));
+    
+            &-image {
+                height: 70%;
+                margin-top: 20%;
+                transform: translate(15%, -10% ) ;
+            }
+    
+            &-title {
+                color: white;
+                font-size: 2em;
+                font-weight: 500;
+                margin-top: 4%;
+                margin-left: 4%
+            }
+    
+            &-desc {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+    
+        &-stock {
+            display: block;
+            text-align: left;
+            background-color: rgb(53, 53, 53);
+            border-radius: 1rem;
+            height: 60vh;
+            width: 35vw;
+            max-width: 450px;
+            margin-bottom: 5%;
+            filter: drop-shadow(3px 3px 5px rgb(44, 41, 41));
+    
+            &-image {
+                height: 90%;
+                margin-top: 5%;
+                filter: drop-shadow(0px 0px 2px rgb(199, 199, 199));
+                border-radius: 0.5rem;
+            }
+    
+            &-image-container {
+                width: 100%;
+                height: 70%;
+                text-align: center;
+            }
+    
+            &-title {
+                color: white;
+                margin-left: 4%;
+                margin-top: 2%;
+                font-size: 2em;
+                font-weight: 500;
+            }
+    
+            &-desc {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 300;
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
+    }
+
+}
+
+/* LANDING PAGE */
+
+
