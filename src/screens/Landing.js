@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { CentralPark, Headshot } from '../assets/ExportImages';
-import { Grid } from '@material-ui/core';
+import { Grid, Typography, Box } from '@material-ui/core';
 import Typist from 'react-typist';
 import './pageCSS.scss';
 
@@ -16,7 +16,7 @@ const LandingScreen = () => {
 
     return (
         <div className="Landing-container" style={{ backgroundImage: `url(${CentralPark})` }} >
-            <Grid container alignItems="center" style={{ height: "85%" }}>
+                <Grid container alignItems="center" style={{ height: "85%" }}>
                     <Grid item className="Landing-header-container">
                         <Typist className="Landing-header"
                             onTypingDone={onHeaderTyped}
@@ -29,7 +29,6 @@ const LandingScreen = () => {
                             <Typist className="Landing-subheader" >
                                 Welcome to my website.
                             </Typist> : null}
-                        
                     </Grid>
                     <Grid item >
                         <CSSTransition
@@ -39,12 +38,21 @@ const LandingScreen = () => {
                             classNames="fade"
                         >
                         <img src={Headshot} alt="mugshot" className="Landing-image"/>
-                        </CSSTransition>
+                        </CSSTransition> 
                     </Grid>        
-            </Grid>
+                </Grid>
             
         </div>
     )
 }
 
 export default LandingScreen;
+
+// 
+
+// <CSSTransition
+// in={true}
+// appear={true}
+// timeout={2000}
+// classNames="fade"
+// >

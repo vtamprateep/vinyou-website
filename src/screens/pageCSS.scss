@@ -11,23 +11,17 @@
 
         &-header {
             font-size: calc(12px + 5vw);
-            opacity: 65%;
+            opacity: 0.65;
         }
         &-subheader {
             font-size: calc(10px + 2vw);
-            opacity: 65%;
+            opacity: 0.65;
         }
         &-header-container {
             padding-top: 5%;
             padding-bottom: 5%;
             padding-left: 8%;
             width: 65%
-        }
-        &-button {
-            opacity: 50%;
-            width: 8rem;
-            font-size: 4.0rem;
-            transition: opacity 0.3s;
         }
     
         &-image{
@@ -195,11 +189,11 @@
         
         &-header {
             font-size: calc(12px + 5vw);
-            opacity: 65%;
+            opacity: 0.65;
         }
         &-subheader {
             font-size: calc(10px + 4vw);
-            opacity: 65%;
+            opacity: 0.65;
         }
         &-header-container {
             padding-top: 5%;
